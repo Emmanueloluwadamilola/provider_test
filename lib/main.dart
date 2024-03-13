@@ -5,6 +5,7 @@ import 'package:provider_test/Counter/home_screen.dart';
 import 'package:provider_test/Display/display_provider.dart';
 import 'package:provider_test/Display/display_screen.dart';
 import 'package:provider_test/Shopping_cart/manager/shopping_provider.dart';
+import 'package:provider_test/Shopping_cart/presentation/splash_screen.dart';
 
 
 void main() {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const DisplayScreen(),
+        home: const SplashScreen(),
       ),
     );
   }

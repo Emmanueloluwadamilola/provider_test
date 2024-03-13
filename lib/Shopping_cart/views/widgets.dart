@@ -9,9 +9,13 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Icon(Icons.shopify_sharp, color: MyColors.primary,size: 40,),
-        Text('...', style: TextStyle(color: MyColors.primary, fontSize: 20),),
+        Icon(
+          Icons.shopify_sharp,
+          color: MyColors.primary,
+          size: 150,
+        ),
       ],
     );
   }

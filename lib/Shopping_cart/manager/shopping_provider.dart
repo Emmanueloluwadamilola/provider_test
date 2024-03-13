@@ -13,4 +13,9 @@ class ShoppingProvider extends ChangeNotifier {
     state.myItems.remove(value);
     notifyListeners();
   }
+
+  login(value) {
+    state.name = value;
+    notifyListeners();
+  }
 }
